@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Simple WW1 map</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+body{
+font-family: 'Amiri', serif;
+font-size: 20px;
+background-image: url("images/background03.jpg");
+}
+
+h1{
+background-color: black;
+border-style: double;
+border-color: yellow;
+text-align: center;
+color: yellow;
+}
+
+img{
+border-style: ridge;
+border-color: yellow;
+}
+
+</style> 
+
+</head>
+
+
+
+<body>
+
+<h1>A simple World War One Map</h1>
+
+<p>Drag the slider in order to view the five points in time during the war</p>
+
+<img src="images/1914.jpg" id="map"></img>
+
+<p id="counter">1914</p>
+
+<input type ="range" min="1914" max="1918" value="1914" id="slidebar">
+
+
+<script src="script/show.js"></script>
+
+</body>
+
+</html>
